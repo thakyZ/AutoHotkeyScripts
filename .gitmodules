@@ -1,0 +1,4 @@
+[submodule "EasyAutoGuiForAhk"]
+	path = EasyAutoGuiForAhk
+	url = https://github.com/samfisherirl/Easy-Auto-GUI-for-AHK-v2.git
+	branch = main
