@@ -1,4 +1,5 @@
 ﻿#Requires AutoHotkey v2.0
+#SingleInstance Force
 SetTitleMatchMode "RegEx"
 
 Count := 0
@@ -14,7 +15,7 @@ Toggle := false
   Loop
   {
     If (!WinExist("^Minecraft (?!Launcher).+$") || !WinActive("^Minecraft (?!Launcher).+$"))
-    { 
+    {
       global Toggle := false
     }
 
